@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "genenginedll.h": "c",
+        "gendll.h": "c",
+        "servernet.h": "c",
+        "chat.h": "c",
+        "genq.h": "c",
+        "serverapp.h": "c",
+        "listitr.h": "c",
+        "stdlib.h": "c",
+        "cstdlib": "c",
+        "groups.h": "c"
+    }
+}
