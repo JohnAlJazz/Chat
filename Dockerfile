@@ -1,13 +1,10 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
-RUN apt-get update && apt-get install -y gcc
+RUN apt update && apt install -y gcc make \
+    && apt clean
 
 WORKDIR /app
 
-COPY chatProject /app/chatProject
-COPY project /app/project
-COPY ../GenericStructs /app/GenericStructs
+COPY . /app
 
-RUN gcc -o myprogram myprogram.c
-
-CMD ["./myprogram"]
+CMD make check_all && make run_server
