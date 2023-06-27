@@ -22,6 +22,7 @@ in a different terminal\tab and run:
 make check
 
 ############################  
+
 you can compile, run and clean up   
 each directory by running its  
 make, make check and make clean
