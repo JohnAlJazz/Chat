@@ -9,8 +9,7 @@ their choice and send messages.
 clone the project to your local machine
 NOTICE: the project runs on linux OS
 
-#### in the project directory,
-### open a terminal and run this commands:
+**in the project directory open a terminal and run this commands:**
 
 make check_all (to compile all app)  
 make run_server (to run server)
