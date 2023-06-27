@@ -13,8 +13,8 @@ NOTICE: the project runs on linux OS
 
 make check_all (to compile all app)  
 make run_server (to run server)
-  
--make clean_all (to clean all app)  
+
+make clean_all (to clean all app)  
 
 when server is up, navigate to Client directory  
 in a different terminal\tab and run:  
